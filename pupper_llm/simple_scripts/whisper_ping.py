@@ -76,7 +76,7 @@ class EnhancedWhisperNode(Node):
         # Audio configuration
         self.sample_rate = 16000
         self.channels = 1
-        self.chunk_duration = 5.0  # Reduced from 5.0 for lower latency
+        self.chunk_duration = 2.5  # Reduced from 5.0 for lower latency
         self.silence_threshold = 0.01
         
         # Thread-safe audio queue
