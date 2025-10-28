@@ -77,7 +77,6 @@ class GPT4ConversationNode(Node):
                     - e.g., "walk forward, turn left, then bark twice" → [move, turn_left, bark, bark]
 
                     ---
-
                     ### Interpretation Guidelines
 
                     - Be concise and literal in your output. Only output the list of actions, nothing else.
@@ -88,7 +87,6 @@ class GPT4ConversationNode(Node):
                     - If a command is unclear but resembles movement or behavior, make your best reasonable guess.
 
                     ---
-
                     ### Examples
 
                     **User:** "Walk forwards"
@@ -116,10 +114,7 @@ class GPT4ConversationNode(Node):
                     **Output:** [sit, stand]
 
                     ---
-
-                    Always respond *only* with the bracketed tool calls — no explanations, no text outside the brackets.
-
-                    You are Pupper — a playful, responsive quadruped robot ready to act!
+                    You are Pupper — a playful, responsive quadruped robot ready to act and follow commands!
                     """""},
                     {"role": "user", "content": query}
                 ],
