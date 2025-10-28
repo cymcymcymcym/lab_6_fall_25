@@ -59,7 +59,7 @@ class KarelPupper:
         while time.time() - start_time < 2.0:  # Move for 2 seconds
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Move forward...')
         self.stop()
@@ -73,7 +73,7 @@ class KarelPupper:
         while time.time() - start_time < 2.0:  # Move for 2 seconds
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Move backward...')
         self.stop()
@@ -87,7 +87,7 @@ class KarelPupper:
         while time.time() - start_time < 2.0:  # Move for 2 seconds
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Move left...')
         self.stop()
@@ -101,7 +101,7 @@ class KarelPupper:
         while time.time() - start_time < 2.0:  # Move for 2 seconds
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Move right...')
         self.stop()
@@ -115,7 +115,7 @@ class KarelPupper:
         while time.time() - start_time < 1.0:  # Turn for 1 second
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Turning Left...')
         self.stop()
@@ -129,7 +129,7 @@ class KarelPupper:
         while time.time() - start_time < 1.0:  # Turn for 1 second
             self.publisher.publish(move_cmd)
             rclpy.spin_once(self.node, timeout_sec=0.01)
-            time.sleep(0.1)
+            #time.sleep(0.1)
         
         self.node.get_logger().info('Turning Right...')
         self.stop()
