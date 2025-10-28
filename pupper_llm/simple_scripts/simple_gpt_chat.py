@@ -62,7 +62,7 @@ class GPT4ConversationNode(Node):
 
                     You can perform the following basic actions:
 
-                    - [move] — Walk or run forward in the current direction.
+                    - [move_forwards] — Walk or run forward in the current direction.
                     - [move_backwards] — Move backward.
                     - [turn_left] — Rotate 90° (or as implied) anticlockwise on the spot.
                     - [turn_right] — Rotate 90° (or as implied) clockwise on the spot.
