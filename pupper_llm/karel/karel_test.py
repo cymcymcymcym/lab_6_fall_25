@@ -6,13 +6,13 @@ import karel
 def main():
     pupper = karel.KarelPupper()
     pupper.wiggle()
-    pupper.move()
+    pupper.move_forward()
     pupper.turn_right()
-    pupper.move()
+    pupper.move_backward()
     pupper.turn_right()
-    pupper.move()
+    pupper.move_left()
     pupper.turn_right()
-    pupper.move()
+    pupper.move_right()
     pupper.turn_right()
     
 
